@@ -9,15 +9,15 @@ gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw]
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
 # Middleman Gems
-gem 'middleman-sprockets', '>= 4.0.0.rc.1'
-gem 'middleman', '>= 4.0.0.rc.1'
+gem 'middleman-sprockets'
+gem 'middleman'
 gem 'middleman-livereload'
-gem 'bootstrap-sass', :require => false
+gem 'bootstrap-sass'
 gem 'jquery-middleman'
-gem 'middleman-blog', github: 'middleman/middleman-blog'
+gem 'middleman-blog'
 
 # For code syntax
-gem 'middleman-syntax', github: 'szines/middleman-syntax'
+gem 'middleman-syntax'
 
 # For feed xml
 gem 'builder'
